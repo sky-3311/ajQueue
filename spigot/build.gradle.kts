@@ -15,7 +15,10 @@ repositories {
 
     maven { url = uri("https://repo.ajg0702.us/releases/") }
 
+    maven { url = uri("https://repo.glaremasters.me/repository/jitpack/") }
+    maven { url = uri("https://repo.glaremasters.me/repository/razyr/") }
     maven { url = uri("https://repo.glaremasters.me/repository/placeholderapi/") }
+    
 
     mavenCentral()
 }
@@ -30,6 +33,9 @@ dependencies {
     compileOnly("us.ajg0702:ajUtils:1.2.25")
 
     compileOnly(group = "org.spigotmc", name = "spigot", version = "1.16.5-R0.1-SNAPSHOT")
+
+    compileOnly("org.bstats:bstats-bukkit:1.2")
+    compileOnly("me.rayzr522:jsonmessage:1.0.0")
     compileOnly("me.clip:placeholderapi:2.10.4")
 }
 
