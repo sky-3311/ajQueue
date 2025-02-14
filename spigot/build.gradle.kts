@@ -15,6 +15,8 @@ repositories {
 
     maven { url = uri("https://repo.ajg0702.us/releases/") }
 
+    maven { url = uri("https://mvnrepository.com/artifact/me.clip/placeholderapi") }
+
     mavenCentral()
 }
 
